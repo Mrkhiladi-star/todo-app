@@ -1,0 +1,22 @@
+# .gitignore
+
+# Frontend
+frontend/node_modules
+frontend/.next   # Ignore Next.js build output
+frontend/out     # Ignore static export output (if using `next export`)
+
+# Backend
+backend/node_modules
+backend/.env     # Ignore environment variables
+
+# General
+.DS_Store        # Ignore macOS system files
+.env.local       # Ignore local environment variables
+*.log            # Ignore log files
+node_modules     # Ignore root-level node_modules (if any)
+
+# Editor and IDE files
+.idea/           # Ignore JetBrains IDE files
+.vscode/         # Ignore VS Code settings
+*.swp            # Ignore Vim swap files
+node_modules
